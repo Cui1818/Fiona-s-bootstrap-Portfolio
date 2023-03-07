@@ -17,7 +17,7 @@
 
     <!-- Navigation bar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light customNav">
-      <a class="navbar-brand" href="#"><img src="images/logo.jpg">My Portfolio</a>
+      <a class="navbar-link" href="#">My Portfolio <span class="sr-only">(current)</span></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -43,7 +43,7 @@
     <!-- End navigation bar -->
 
     <!-- Jumbotron -->
-    <div class="jumbotron rockBackground">
+    <div class="jumbotron content">
       <div class="jumboCopy">
         <h1 class="display-4">Welcome to My Portfolio</h1>
         <p class="lead"> University of Birmingham - Web Developer
@@ -68,8 +68,10 @@
   <div class="My work">
 
     <!-- Card 1 -->
-    <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
-      <div class="card">
+    <div class="cardContainer-fluid">
+    <div class="row">
+    <div class="cardContainer col-lg-6 col-md-4 col-sm-12">
+      <div class="card ">
         <img src="images/project 7.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">MMKK Company</h5>
@@ -81,7 +83,8 @@
     <!-- End card 1 -->
 
     <!-- Card 2 -->
-    <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+    
+    <div class="cardContainer col-lg-6 col-md-4 col-sm-12">
       <div class="card">
         <img src="images/project 5.jpg" class="card-img-top" alt="...">
         <div class="card-body">
@@ -91,10 +94,13 @@
         </div>
       </div>
     </div>
+    </div>
+
     <!-- End card 2 -->
 
-    <!-- Card 3 -->
-    <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+    <!-- Card 3 --><div class="cardContainer-fluid">
+    <div class="row">
+   <div class="cardContainer col-lg-6 col-md-4 col-sm-12">
       <div class="card">
         <img src="images/project 3.jpg" class="card-img-top" alt="...">
         <div class="card-body">
@@ -105,9 +111,9 @@
       </div>
     </div>
     <!-- End card 4 --> <!-- Card 4 -->
-    <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+    <div class="cardContainer col-lg-6 col-md-4 col-sm-12">
       <div class="card">
-        <img src="images/project 2.jpg" class="card-img-top" alt="...">
+        <img src="images/project 8.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">XYZ Company </h5>
           <p class="card-text">The Red Hot Chili Peppers take the stage at the Honda Center</p>
@@ -115,23 +121,39 @@
         </div>
       </div>
     </div>
+    </div>
     <!-- End card 4 -->
 
  </div>
 </div>
 <!-- End cards -->
 
-   
- 
 
-
-     <!--card -->
 <!--footer-->
-<footer class="footer">
-<div class="cardContainer"></div>
-</footer>
+<footer class="emailcontain">
+<div class="cardContainer">
+<!-- Jumbotron -->
+<div class="jumbotron content">
+  <div class="jumboCopy">
+    <h1 class="display-4">About Me!</h1>
+    <p class="lead"> University of Birmingham - Web Developer
+      2023 – present 
+      
+      Responsible for working on a range of projects, designing appealing websites and interacting on a daily basis with graphic designers, back-end developers.
+      •	UX Design
+      •	Interface Design
+      •	Visual Design
+      •	Performed front-end development for all client projects.
+      •	Collaborated with back-end developers to identify and remove user impediments to purchase.. 
+      
+      </p>
+    <a class="btn btn-primary btn-lg" href="./images/FionaCV.pdf" role="button">Download My Resume!</a>
+  </div>
+</div>
+<!-- End jumbotron -->
 
-    
-  </body>
+  <!--End Footer-->
+</footer>
+</body>
 
 </html>
