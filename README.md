@@ -1,61 +1,46 @@
 # Fiona-s-bootstrap-Portfolio
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
 
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
+For this challenge I used the HTML CSS and Bootstrap Components Navbar jobotron cards to write my portfolio 
+.Site is divided into several sections including Welcome ,Work ,About and Cotact .
+
 
 ## Table of Contents (Optional)
 
-If your README is long, add a table of contents to make it easy for users to find what they need.
 
-- 
 
 ## Installation
 
-Navbar 
+I have add some <nav> <li> in the Navbar ,change the backgroud color delete the form bar.
+wrote some portolio content in the <div> <h1><p>and added some background pictures in Jumbotron
+Added some background images in the cards and  change the card titles
+Added another Jumbotron 
+Added a footer
 
-Form 
-
-
-card 
-
-
-(a)
-## Usage
 
 Provide instructions and examples for use. Include screenshots as needed.
 
 To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
 
     ```md
-C:\Users\Fiona\Desktop\Fiona-s-bootstrap-Portfolio\images\screenshot 1.png
+
+  
+![Navbar](images/screenshot%201.png)
 
 
-![Background](images/screenshot2.png)
+
+![Jumbotron](images/screenshot2.png)
 
 
-![Navbar](images/screenshot%203.png)
-    ```
-     delete the form bar
-    Navbar 
-    Navbar-nav 
+![cards](images/screenshot%203.png)
+
+
+
+    
 
 ## Credits
 
-List your collaborators, if any, with links to their GitHub profiles.
-
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
 
 ## License
 
-The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
-
----
-
-🏆 The previous sections are the bare minimum, and your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
