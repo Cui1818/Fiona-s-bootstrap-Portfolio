@@ -24,7 +24,7 @@ Form
 card 
 
 
-
+(a)
 ## Usage
 
 Provide instructions and examples for use. Include screenshots as needed.
@@ -32,7 +32,13 @@ Provide instructions and examples for use. Include screenshots as needed.
 To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
 
     ```md
-    ![alt text](assets/images/screenshot.png)
+C:\Users\Fiona\Desktop\Fiona-s-bootstrap-Portfolio\images\screenshot 1.png
+
+
+![Background](images/screenshot2.png)
+
+
+![Navbar](images/screenshot%203.png)
     ```
      delete the form bar
     Navbar 
